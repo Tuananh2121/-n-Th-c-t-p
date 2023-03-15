@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_android"
+    tools:context=".Control">
+
+    <ImageView
+        android:id="@+id/imgView_cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_lock"
+        tools:ignore="MissingConstraints"
+        android:src="@drawable/dm"/>
+
+    <TextView
+        android:id="@+id/textView_lock"
+        android:layout_width="360dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Final Project"
+        android:textColor="#0AF313"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <Switch
+        android:id="@+id/swt_cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:showText="true"
+        android:text="camera"
+        android:textColor="#000"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:thumb="@drawable/sw_thumb"
+        android:track="@drawable/sw_track"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgView_cam"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />-->
+
+
+    <ImageView
+        android:id="@+id/lock_main"
+        android:layout_width="229dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="480dp"
+        android:src="@drawable/lock10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_lock"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edt_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Cửa Đóng"
+        android:textColor="#FFEB3B"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lock_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgView_cam"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="111dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/radius_btn"
+        android:text="OPEN"
+        android:textColor="#FF9800"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lock_main" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

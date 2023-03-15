@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "326358423211",
+    "firebase_url": "https://mydoor-72081-default-rtdb.firebaseio.com",
+    "project_id": "mydoor-72081",
+    "storage_bucket": "mydoor-72081.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326358423211:android:2a09a56168030ef98809ee",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326358423211-8m87o7i9rr1u0ag91rl9jq8lq10v9pnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg4gkZtSZ8NJ7M7LizuD4iyrGtlG16hOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326358423211-8m87o7i9rr1u0ag91rl9jq8lq10v9pnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
